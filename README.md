@@ -16,6 +16,7 @@ This folder contains all the Jupyter Notebooks used during the development phase
 | **DatasetSplit.ipynb** | Prepares the dataset by splitting it into training (70%) , test (15%) , and validation (15%) sets based on image labels. This ensures proper evaluation during model training. |
 | **EfficientNetB3+DenseNet_Feature_Extraction_and_Traditional_ML_Classifier.ipynb** | Extracts deep features from retinal images using EfficientNetB3 and DenseNet architectures, then applies traditional machine learning classifiers (such as SVM and Random Forest) to classify diabetic retinopathy severity. |
 | **Gaussian_Filter.ipynb** | Applies Gaussian filtering to retinal images to enhance image clarity, reduce noise, and potentially improve feature extraction quality. |
+| **Vision_Transformers.ipynb** | Runs a pretrained Vision Transformer model with out preprocessed data, and shows evaluation metrics on the test set after training. Then, generates an attention heatmap and integration with LLM for better interpretability.|
 
 > These notebooks were primarily used for preprocessing, feature engineering, and model training.
 
@@ -68,5 +69,5 @@ The website will provide a simple interface where users can upload an image and 
 - The **PythonNotebook/** and **FlaskWebsite/** are independent. You do not need to run the notebooks to use the web application.
 - The pretrained models and feature extraction processes are already integrated into the web app for prediction purposes.
 - `dataset.zip` and `label.csv` are mainly for retraining or model experiments, not needed for basic website use.
-
+- The original code contained our **OpenAI API key**. However, to prevent misuse of our key on a public Repo, we have removed this and replaced it with a comment to insert an API key.
 ---
