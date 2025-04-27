@@ -14,9 +14,7 @@ This folder contains all the Jupyter Notebooks used during the development phase
 | Notebook | Description |
 |:---------|:------------|
 | **DatasetSplit.ipynb** | Prepares the dataset by splitting it into training (70%) , test (15%) , and validation (15%) sets based on image labels. This ensures proper evaluation during model training. |
-
 | **DenseNet121.ipynb** | Extracts deep features from retinal images using DenseNet121 architectures, train, validate model to classify images into diabetic severity. Evaluation metrics for validation and test set are shown, together with Grad-CAM images for interpretability. |
-
 | **EfficientNetB3+DenseNet_Feature_Extraction_and_Traditional_ML_Classifier.ipynb** | Extracts deep features from retinal images using EfficientNetB3 and DenseNet architectures, then applies traditional machine learning classifiers (such as SVM and Random Forest) to classify diabetic retinopathy severity. |
 | **Gaussian_Filter.ipynb** | Applies Gaussian filtering to retinal images to enhance image clarity, reduce noise, and potentially improve feature extraction quality. |
 | **Vision_Transformers.ipynb** | Runs a pretrained Vision Transformer model with out preprocessed data, and shows evaluation metrics on the test set after training. Then, generates an attention heatmap and integration with LLM for better interpretability.|
