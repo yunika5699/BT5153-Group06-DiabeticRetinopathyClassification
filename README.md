@@ -55,8 +55,8 @@ The website will provide a simple interface where users can upload an image and 
 - **SampleImages/**  
   Contains example retinal images that can be used for testing the Flask application.
 
-- **dataset.zip**  
-  Zipped dataset (train, test, val) of retinal images used during model training (can be extracted if needed).
+- **dataset.txt**  
+  Has the google drive link to access the datasets
 
 - **label.csv**  
   A CSV file containing image filenames and their associated diabetic retinopathy labels.
